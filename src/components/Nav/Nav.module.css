@@ -1,13 +1,54 @@
 /* icons */
-.icon_abonent {
+.icon {
     width: 55px;
     height: 55px;
+}
+
+.icon_Abonent {
     background: url(../img/ico/Abonent.png);
 }
 
+.icon_Reports {
+    background: url(../img/ico/reports.png);
+}
+
+.icon_Search {
+    background: url(../img/ico/Search.png);
+}
+
+.icon_DoorAccounting {
+    background: url(../img/ico/DoorAccounting.png);
+}
+
+.icon_Suppliers {
+    background: url(../img/ico/Suppliers.png);
+}
+
+.icon_Guides {
+    background: url(../img/ico/Guides.png);
+}
+
+.icon_HouseGuides {
+    background: url(../img/ico/HouseGuides.png);
+}
+
+.icon_PaymentDoc {
+    background: url(../img/ico/PaymentDoc.png);
+}
+
+.icon_Personnel {
+    background: url(../img/ico/Personnel.png);
+}
+
+.icon_WebMessage {
+    background: url(../img/ico/WebMessage.png);
+}
+
+.icon_OperatorWorkLog {
+    background: url(../img/ico/OperatorWorkLog.png);
+}
+
 .icon_settings {
-    width: 55px;
-    height: 55px;
     background: url(../img/ico/Settings.png);
 }
 /* icons */
@@ -19,23 +60,27 @@
 .ItemName {
     display: flex;
     align-items: center;
+    text-align: center;
+    
 }
 
 .NavList {
+    
+    margin-top: 5px;
     height: 80px;
     justify-items: center;
-    align-items: center;
+    align-items: flex-end;
     
     display: grid;
-
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    
 }
 
 .item {
     display: flex;
     justify-content: center;
     align-content: center;
-    border: thick double #32a1ce;
     flex-direction: column;
+    align-items: center;
+    background-color: rgba(55, 221, 55, 0.2);
 }

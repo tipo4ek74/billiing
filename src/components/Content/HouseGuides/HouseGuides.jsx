@@ -1,7 +1,7 @@
 import React from "react";
-import s from "./Settings.module.css"
+import s from "./HouseGuides.module.css";
 
-function Settings () {
+function HouseGuides () {
     return (
         <div className="ContentWrapper">
             <div className="FirstBlok">
@@ -14,4 +14,4 @@ function Settings () {
     )
 }
 
-export default Settings;
+export default HouseGuides;

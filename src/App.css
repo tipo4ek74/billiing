@@ -4,14 +4,37 @@ element{
 
 
 .wrapper {
+  
   display: grid;
 
   grid-template-columns: 2fr 10fr;
   grid-template-rows: 90px 1fr;
+  gap: 1rem;
 
   grid-template-areas: 
   "header header"
-  "content content";
+  "ContentWrapper ContentWrapper";
 
   
+}
+
+.ContentWrapper {
+  
+  display: grid;
+
+  grid-area: ContentWrapper;
+
+  grid-template-columns: 2fr 10fr;
+  grid-template-rows: 100%;
+
+  grid-template-areas: 
+  "FirsBlok SecondBlok";
+}
+
+.FirsBlok {
+  grid-area: FirsBlok;
+}
+
+.SecondBlok {
+  grid-area: SecondBlok;
 }

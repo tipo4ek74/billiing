@@ -3,10 +3,13 @@ import s from "./Abonent.module.css";
 
 function Abonent () {
     return (
-        <div className={s.wrapper}>
-            <h1>
-                abonent
-            </h1>
+        <div className="ContentWrapper">
+            <div className="FirstBlok">
+            FerstBlok
+            </div>
+            <div className="SecondBlok">
+            SeccondBlok
+            </div>
         </div>
     )
 }

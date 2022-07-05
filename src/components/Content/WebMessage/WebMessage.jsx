@@ -1,7 +1,7 @@
 import React from "react";
-import s from "./Settings.module.css"
+import s from "./WebMessage.module.css";
 
-function Settings () {
+function WebMessage () {
     return (
         <div className="ContentWrapper">
             <div className="FirstBlok">
@@ -14,4 +14,4 @@ function Settings () {
     )
 }
 
-export default Settings;
+export default WebMessage;

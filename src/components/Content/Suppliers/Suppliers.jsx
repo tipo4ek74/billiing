@@ -1,7 +1,7 @@
 import React from "react";
-import s from "./Settings.module.css"
+import s from "./Suppliers.module.css";
 
-function Settings () {
+function Suppliers () {
     return (
         <div className="ContentWrapper">
             <div className="FirstBlok">
@@ -14,4 +14,4 @@ function Settings () {
     )
 }
 
-export default Settings;
+export default Suppliers;
