@@ -1,0 +1,17 @@
+element{
+  --HeaderColor: #7FFFD4;
+}
+
+
+.wrapper {
+  display: grid;
+
+  grid-template-columns: 2fr 10fr;
+  grid-template-rows: 90px 1fr;
+
+  grid-template-areas: 
+  "header header"
+  "content content";
+
+  
+}

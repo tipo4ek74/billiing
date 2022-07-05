@@ -1,0 +1,11 @@
+.icon_abonent {
+    width: 55px;
+    height: 55px;
+    background: url(../img/ico/Abonent.png);
+}
+
+.icon_settings {
+    width: 55px;
+    height: 55px;
+    background: url(../img/ico/Settings.png);
+}

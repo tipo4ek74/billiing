@@ -1,0 +1,19 @@
+.logo {
+    display: flex;
+    
+    grid-row: logo;
+    margin-left: 50px;
+    
+}
+
+.header {
+    display: grid;
+
+    grid-template-columns: 2fr 10fr;
+    grid-template-areas: 
+    "logo nav";
+
+    grid-area: header;
+
+    background-color: #7FFFD4;
+}

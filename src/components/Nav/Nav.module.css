@@ -1,0 +1,41 @@
+/* icons */
+.icon_abonent {
+    width: 55px;
+    height: 55px;
+    background: url(../img/ico/Abonent.png);
+}
+
+.icon_settings {
+    width: 55px;
+    height: 55px;
+    background: url(../img/ico/Settings.png);
+}
+/* icons */
+
+.nav {
+    grid-area: nav;
+}
+
+.ItemName {
+    display: flex;
+    align-items: center;
+}
+
+.NavList {
+    height: 80px;
+    justify-items: center;
+    align-items: center;
+    
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: thick double #32a1ce;
+    flex-direction: column;
+}
