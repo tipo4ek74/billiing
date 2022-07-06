@@ -1,0 +1,23 @@
+.FormBlok {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 120px 1fr;
+    gap: 10px;
+}
+
+div>input {
+    height: 20px;
+    border-radius: 5px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+
+    border-bottom: solid red 1px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}

@@ -1,11 +1,19 @@
 import React from "react";
-import s from "./Abonent.module.css";
+import SerchAbonent from "./components/SerchAbonent/SerchAbonent";
+
+// let val {
+//     ls: 1111;
+//     name: Иванов;
+//     firsname: Иван;
+//     lastname: Иванович;
+//     saldo: 0;
+// }
 
 function Abonent () {
     return (
         <div className="ContentWrapper">
             <div className="FirstBlok">
-            FerstBlok
+                <SerchAbonent />
             </div>
             <div className="SecondBlok">
             SeccondBlok
