@@ -2,7 +2,7 @@ import './App.css';
 import { BrowserRouter as Router, Switch, Route,} from "react-router-dom";
 
 import Header from './components/Header/Header';
-import Abonent from './components/Content/Abonent/Abonent';
+import Abonent from './components/Content/Abonent/AbonentMain';
 import Reports from './components/Content/Reporrs/Reporrs';
 import Search from './components/Content/Search/Search';
 import DoorAccounting from './components/Content/DoorAccounting/DoorAccounting';

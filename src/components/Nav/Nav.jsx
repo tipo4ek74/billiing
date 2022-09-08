@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink, Link} from "react-router-dom";
+import { Link} from "react-router-dom";
 
 import s from "./Nav.module.css";
 // import Abonent from "../Content/Abonent/Abonent";
